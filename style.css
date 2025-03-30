@@ -1,0 +1,154 @@
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif; 
+  background: url('images/bg.png') no-repeat center center/cover; 
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #e2cdb2;
+}
+
+.logo img{
+  height: auto;
+  width: 50px;
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.nav-links li a:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
+  color: #228c93;
+}
+
+.main{
+  overflow: hidden;
+}
+
+.home{
+  position: relative;
+  height: 90vh;
+}
+
+.container{
+  position: relative;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  overflow: hidden;
+}
+
+.container img{
+  position: absolute;
+}
+
+.mosque{
+  bottom: 120px;
+  width: 500px;
+}
+
+.h1{
+  top: -50px;
+  width: 400px;
+}
+
+.family{
+  bottom: 50px;
+  width: 300px;
+}
+
+.tree-left{
+  width: 330px;
+  top: 250px;
+  left: 300px;
+  z-index: 10;
+}
+
+.tree-right{
+  width: 330px;
+  top: 250px;
+  right: 300px;
+}
+
+.lantern-left{
+  width: 300px;
+  top: 0px;
+  left: 50px;
+}
+
+.lantern-right{
+  width: 300px;
+  top: 0px;
+  right: 50px;
+}
+
+.moon{
+  width: 150px;
+  top: 100px;
+  left: 400px;
+}
+
+.clouds{
+  width: 250px;
+  top: 130px;
+  left: 400px;
+}
+
+.lantern_left-1{
+  width: 150px;
+  top: 530px;
+  left: 500px;
+}
+
+.lantern_left-2{
+  width: 200px;
+  top: 540px;
+  left: 400px;
+  z-index: 10;
+}
+
+.lantern_left-3{
+  width: 250px;
+  top: 570px;
+  left: 250px;
+}
+
+.lantern_right-1{
+  width: 150px;
+  top: 530px;
+  right: 500px;
+}
+
+.lantern_right-2{
+  width: 200px;
+  top: 540px;
+  right: 400px;
+  z-index: 10;
+}
+
+.lantern_right-3{
+  width: 250px;
+  top: 570px;
+  right: 250px;
+}
